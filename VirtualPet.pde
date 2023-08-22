@@ -2,6 +2,8 @@ void setup(){
   size(400, 400);
 }
 void draw(){
+  fill(255, 255, 255);
+  rect(0, 0, 400, 400);
   fill(#B78E3B);
   noStroke();
   ellipse(175, 200, 250, 150);
@@ -26,5 +28,11 @@ void draw(){
   line(300, 150, 300, 155);
   arc(292.5, 155, 15, 15, 0, PI);
   arc(307.5, 155, 15, 15, 0, PI);
-  text("Trevor's Hamster Virtual Pet", 150, 50); 
+  stroke(1);
+  line(300, 150, 350, 160);
+  line(300, 150, 250, 160);
+  line(300, 150, 360, 150);
+  line(300, 150, 240, 150);
+  line(300, 150, 350, 140);
+  line(300, 150, 250, 140);
 }
